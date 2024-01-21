@@ -26,7 +26,7 @@
 </head>
 
 <body class="poppins-font">
-    <header class="">
+    <header id = "home" class="">
         <nav
             class="container w-[85%] mx-auto bg-gradient-to-r from-yellow-300 to-green-500 py-4 px-6 rounded-lg flex justify-between items-center mt-4">
             <div>
@@ -35,10 +35,10 @@
 
 
             <div class="font-medium space-x-8 hidden lg:flex">
-                <a href="#">Home</a>
-                <a href="#">Product</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
+                <a href="#home">Home</a>
+                <a href="#product">Product</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#">Contact</a>
             </div>
             <div class="lg:hidden">
                 <i class="fa-solid fa-bars"></i>
@@ -76,10 +76,10 @@
     <main>
         <!-- woman jacket -->
 
-        <section class="container w-[85%] mt-40 mx-auto mb-10">
+        <section id = "product" class="container w-[85%] mt-40 mx-auto mb-10">
             <h3 class = "text-3xl font-semibold mt-10 mb-10 lg:mx-[20%] text-center bg-gradient-to-r from-yellow-300 to-green-600 rounded-full p-3 text-white">WOMAN'S JACKET</h3>
             <div class=" grid  md:grid-cols-2 lg:grid-cols-3 gap-11 mx-auto">
-                <div class="mx-auto p-5 border-10 shadow-xl">
+                <div class="mx-auto p-5 border-10 shadow-xl rounded-lg">
 
                     <div class=" bg-slate-300 rounded-lg">
                         <img class="max-h-60 max-w-60 p-3 mx-auto" src="images/jacket-1.png" alt="">
@@ -99,7 +99,7 @@
 
                     </div>
                 </div>
-                <div class="mx-auto p-5 border-10 shadow-xl">
+                <div class="mx-auto p-5 border-10 shadow-xl rounded-lg">
 
                     <div class=" bg-slate-300 rounded-lg">
                         <img class="max-h-60 max-w-60 p-3 mx-auto" src="images/jacket-2.png" alt="">
@@ -117,7 +117,7 @@
 
                     </div>
                 </div>
-                <div class="mx-auto p-5 border-10 shadow-xl">
+                <div class="mx-auto p-5 border-10 shadow-xl rounded-lg">
 
                     <div class=" bg-slate-300 rounded-lg">
                         <img class="max-h-60 max-w-60 p-3 mx-auto" src="images/jacket-3.png" alt="">
@@ -142,7 +142,7 @@
         <section class="container w-[85%] mt-20 mx-auto mb-10">
             <h3 class = "text-3xl font-semibold mt-10 mb-10 lg:mx-[20%] text-center bg-gradient-to-r from-yellow-300 to-green-600 rounded-full p-3 text-white">MAN'S JACKET</h3>
             <div class=" grid  md:grid-cols-2 lg:grid-cols-3 gap-11 mx-auto">
-                <div class="mx-auto p-5 border-10 shadow-xl">
+                <div class="mx-auto p-5 border-10 shadow-xl rounded-lg">
 
                     <div class=" bg-slate-300 rounded-lg">
                         <img class="max-h-60 max-w-60 p-3 mx-auto" src="images/jacket-4.png" alt="">
@@ -162,7 +162,7 @@
 
                     </div>
                 </div>
-                <div class="mx-auto p-5 border-10 shadow-xl">
+                <div class="mx-auto p-5 border-10 shadow-xl rounded-lg">
 
                     <div class=" bg-slate-300 rounded-lg">
                         <img class="max-h-60 max-w-60 p-3 mx-auto" src="images/jacket-5.png" alt="">
@@ -180,7 +180,7 @@
 
                     </div>
                 </div>
-                <div class="mx-auto p-5 border-10 shadow-xl">
+                <div class="mx-auto p-5 border-10 shadow-xl rounded-lg">
 
                     <div class=" bg-slate-300 rounded-lg">
                         <img class="max-h-60 max-w-60 p-3 mx-auto" src="images/jacket-6.png" alt="">
@@ -200,6 +200,48 @@
                 </div>
 
 
+            </div>
+        </section>
+
+        <!-- why us section  -->
+
+       
+        <section id="why-us" class = "container w-[85%] mx-auto">
+            <h3 class = "mx-auto text-3xl font-semibold lg:mx-[20%] mt-24 mb-10  text-center bg-gradient-to-r from-yellow-300 to-green-600 rounded-full p-3 text-white">WHY US</h3>
+            <div class = "flex flex-col-reverse lg:flex-row justify-center items-center gap-10 my-20">
+                <div class =" lg:w-[50%] grid grid-cols-1 gap-5">
+                    <div class = "flex p-4 border-2 shadow-lg rounded-lg">
+                        <div><img class = "max-w-16 max-h-16 mr-4" src="icons/house.png" alt=""></div>
+                        <div>
+                            <h5 class="text-xl font-semibold">Find the Perfect Fit</h5>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class = "flex p-4 border-2 shadow-lg rounded-lg">
+                        <div><img class = "max-w-16 max-h-16 mr-4" src="icons/box.png" alt=""></div>
+                        <div>
+                            <h5 class="text-xl font-semibold">Free Exchanges</h5>
+                            <p>One of the many reasons you can shop
+                                with peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class = "flex p-4 border-2 shadow-lg rounded-lg">
+                        <div><img class = "max-w-16 max-h-16 mr-4" src="icons/question.png" alt=""></div>
+                        <div>
+                            <h5 class="text-xl font-semibold">Contact Our Seller</h5>
+                            <p>They are here to help you. That's quite 
+                                literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class = "lg:w-[50%]">
+                    <img class = "rounded-lg" src="images/shopping.png" alt="">
+
+                </div>
             </div>
         </section>
     </main>
